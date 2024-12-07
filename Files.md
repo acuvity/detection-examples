@@ -1,11 +1,11 @@
 [<- Back to README.md](README.md)
-<img src="https://raw.githubusercontent.com/acuvity/demo-examples/refs/heads/main/icons/acuvity.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/icons/acuvity.png" width="100" height="100">
 
-## Demo Files Examples with outputs
+## Detection Files with outputs
 
 ### Upload any of the following options with the prompts to see the detection capabilities.
 
-**1. Document Name:** [code.go](https://raw.githubusercontent.com/acuvity/demo-examples/refs/heads/main/files/code.go) <br>
+**1. Document Name:** [code.go](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/code.go) <br>
 - **Prompt:** Explain the code <br>
 - **Type:** Code <br>
 - **Expectation:**
@@ -17,7 +17,7 @@ code/go, aws_secret_key <br>
   - topic:unclassified <br>
 - **Matches** Yes <br><br>
 
-**2. Document Name:** [private-key.pem](https://raw.githubusercontent.com/acuvity/demo-examples/refs/heads/main/files/private-key.pem) <br>
+**2. Document Name:** [private-key.pem](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/private-key.pem) <br>
 - **Prompt:** N/A <br>
 - **Type:** pem <br>
 - **Expectation:**
@@ -29,7 +29,7 @@ application/pem, private_key <br>
   - topic:unclassified <br>
 - **Matches** Yes<br><br>
 
-**3. Document Name:** [public-cert.ppt](https://raw.githubusercontent.com/acuvity/demo-examples/refs/heads/main/files/public-cert.ppt) <br>
+**3. Document Name:** [public-cert.ppt](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/public-cert.ppt) <br>
 - **Prompt:**  N/A<br>
 - **Type:** ppt<br>
 - **Expectation:**
@@ -40,7 +40,7 @@ application/pem, private_key <br>
   - topic:cryptography/public_key <br>
 - **Matches** Yes<br><br>
 
-**4. Document Name:** [ssn.txt](https://raw.githubusercontent.com/acuvity/demo-examples/refs/heads/main/files/ssn.txt) <br>
+**4. Document Name:** [ssn.txt](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/ssn.txt) <br>
 - **Prompt:**  Summarize<br>
 - **Type:** txt<br>
 - **Expectation:**
