@@ -9,11 +9,12 @@
 - **Prompt:** Explain the code <br>
 - **Type:** Code <br>
 - **Expectation:**
-code/go, aws_secret_key <br>
+code/go, aws_secret_key, credentials <br>
 - **Findings:** <br>
   - extractor:files <br>
   - modality:code/go <br>
   - secret:aws_secret_key <br>
+  - secret:credentials <br>
   - topic:unclassified <br>
 - **Matches** Yes <br><br>
 

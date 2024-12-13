@@ -12,7 +12,7 @@ import (
 
 func main() {
 	accessKeyID := "AKIA1234567890ABCDEF"
-	secretAccessKey := "YOUR_SECRET_ACCESS_KEY"
+	secretAccessKey := "lDFOLjlO291/832nm&"
 	myRegion := "us-west-2"
 
 	// Initialize a session using Amazon S3
