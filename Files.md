@@ -41,7 +41,8 @@ application/pem, private_key <br>
   - topic:cryptography/public_key <br>
 - **Matches** Yes<br><br>
 
-**4. Document Name:** [ssn.txt](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/ssn.txt) <br>
+**4. Document Name:**
+[ssn.csv](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/ssn.csv) <br>
 - **Prompt:**  Summarize<br>
 - **Type:** txt<br>
 - **Expectation:**
@@ -53,4 +54,3 @@ application/pem, private_key <br>
   - pii:ssn
   - topic:unclassified
 - **Matches** Yes<br><br>
-
