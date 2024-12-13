@@ -5,53 +5,51 @@
 
 ### Upload any of the following options with the prompts to see the detection capabilities.
 
-**1. Document Name:** [code.go](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/code.go) <br>
-- **Prompt:** Explain the code <br>
-- **Type:** Code <br>
-- **Expectation:**
-code/go, aws_secret_key, credentials <br>
-- **Findings:** <br>
-  - extractor:files <br>
-  - modality:code/go <br>
-  - secret:aws_secret_key <br>
-  - secret:credentials <br>
-  - topic:unclassified <br>
-- **Matches** Yes <br><br>
+#### 1. Document Name: [code.go](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/code.go)
 
-**2. Document Name:** [private-key.pem](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/private-key.pem) <br>
-- **Prompt:** N/A <br>
-- **Type:** pem <br>
-- **Expectation:**
-application/pem, private_key <br>
+- **Prompt:** Explain the code
+- **Type:** Code
+- **Expectation:** code/go, aws_secret_key, credentials
 - **Findings:**
-  - extractor:files <br>
-  - modality:application/pem <br>
-  - secret:private_key <br>
-  - topic:unclassified <br>
-- **Matches** Yes<br><br>
+  - extractor:files
+  - modality:code/go
+  - secret:aws_secret_key
+  - secret:credentials
+  - topic:unclassified
+- **Matches** Yes
 
-**3. Document Name:** [public-cert.ppt](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/public-cert.ppt) <br>
-- **Prompt:**  N/A<br>
-- **Type:** ppt<br>
-- **Expectation:**
- application/pem, cryptography/public_key<br>
-- **Findings:** <br>
-  - extractor:files <br>
-  - modality:application/pem <br>
-  - topic:cryptography/public_key <br>
-- **Matches** Yes<br><br>
+#### 2. Document Name: [private-key.pem](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/private-key.pem)
 
-**4. Document Name:**
-[ssn.csv](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/ssn.csv) <br>
-- **Prompt:**  Summarize<br>
-- **Type:** csv<br>
-- **Expectation:**
- PII ssn<br>
-- **Findings:** <br>
+- **Prompt:** N/A
+- **Type:** pem
+- **Expectation:** application/pem, private_key
+- **Findings:**
+  - extractor:files
+  - modality:application/pem
+  - secret:private_key
+  - topic:unclassified
+- **Matches** Yes
+
+#### 3. Document Name: [public-cert.ppt](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/public-cert.ppt)
+
+- **Prompt:** N/A
+- **Type:** ppt
+- **Expectation:** application/pem, cryptography/public_key
+- **Findings:**
+  - extractor:files
+  - modality:application/pem
+  - topic:cryptography/public_key
+- **Matches** Yes
+
+#### 4. Document Name: [ssn.csv](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/files/ssn.csv)
+
+- **Prompt:**  Summarize
+- **Type:** csv
+- **Expectation:** PII ssn, PII person
+- **Findings:**
   - extractor:files
   - modality:document/csv
-  - language:french
   - pii:person
   - pii:ssn
   - topic:unclassified
-- **Matches** Yes<br><br>
+- **Matches** Yes
