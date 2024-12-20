@@ -5,6 +5,8 @@
 
 ### Upload any of the following options with the prompts to see the detection capabilities.
 
+NOTE: We have a few file examples here. To try them out, "save link as" on your computer and upload it to a GenAI service like ChatGPT to see the detections in action.
+
 #### 1. Document Name: [check.png](https://raw.githubusercontent.com/acuvity/detection-examples/refs/heads/master/images/check.png)
 
 - **Prompt:** describe the image
