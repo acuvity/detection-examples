@@ -5,7 +5,6 @@
 The following sections contain examples for different modalities with the corresponding expected outputs and the actual outputs.
 
 1. Text
-   - Content Moderation: [Harmful Text](Text%20Harmful.md)
    - Exploits: [Jailbreak](Text%20Jailbreak.md)
    - Exploits: [Prompt Injection](Text%20Prompt%20Injection.md)
    - Data Loss: [PII - SSN](Text%20PII%20SSN.md)
