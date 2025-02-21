@@ -11,10 +11,10 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
 
 - **Prompt:** describe the image
 - **Type:** Image
-- **Expectation:** depict/cheque, contains/printed_text
+- **Expectation:** depict/check, contains/printed_text
 - **Findings:**
   - extractor:files
-  - categories:image/cheque
+  - categories:image/check
   - languages:english
   - PIIs:aba_routing_number
   - PIIs:address
@@ -41,7 +41,7 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
 - **Findings:**
   - extractor:files
   - categories:image/code
-  - languagess:english
+  - languages:english
   - topics:category/enterprise
   - topics:contains/printed_text
   - topics:department/human_resources
@@ -60,7 +60,7 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
   - categories:image/document
   - languages:english
   - PIIs:email_address
-  - PIIss:money_amount
+  - PIIs:money_amount
   - topics:category/enterprise
   - topics:contains/printed_text
   - topics:department/finance
@@ -85,7 +85,7 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
   - PIIs:money_amount
   - PIIs:person
   - topics:category/enterprise
-  - topicss:contains/printed_text
+  - topics:contains/printed_text
   - topics:department/finance
   - topics:depict/document
   - topics:domain/commercial
@@ -204,7 +204,7 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
 - **Expectation:** depict/block_diagram, contains/printed_text
 - **Findings:**
   - extractor:files
-  - catefory:image/block_diagram
+  - categories:image/block_diagram
   - intent:write
   - languages:english
   - topics:category/enterprise
@@ -226,7 +226,6 @@ NOTE: We have a few file examples here. To try them out, "save link as" on your 
   - extractor:files
   - categories:image/unclassified
   - exploits:prompt_injection
-  - intent:suggest
   - languages:english
   - topics:category/enterprise
   - topics:contains/blank_image
