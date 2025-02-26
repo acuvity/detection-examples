@@ -4,7 +4,7 @@
 
 The following sections contain examples for different modalities with the corresponding expected outputs.
 ## Table of Content 
- - [Files](Files)
+ - [Files](Files.md)
    - [Piis](<Files.md#Piis>)
      - [Pii ssn_1](<Files.md#PII-SSN_1>)
      - [Ssn.csv](<Files.md#ssncsv>)
@@ -13,7 +13,7 @@ The following sections contain examples for different modalities with the corres
    - [Secrets](<Files.md#Secrets>)
      - [Code.go](<Files.md#codego>)
      - [Private-key.pem](<Files.md#private-keypem>)
- - [Images](Images)
+ - [Images](Images.md)
    - [Diagrams](<Images.md#Diagrams>)
      - [Flowchart.webp](<Images.md#flowchartwebp>)
      - [Software design.png](<Images.md#software-designpng>)
@@ -36,7 +36,7 @@ The following sections contain examples for different modalities with the corres
      - [Whiteboard2.jpg](<Images.md#whiteboard2jpg>)
      - [Whiteboard-diagram-text.jpeg](<Images.md#whiteboard-diagram-textjpeg>)
      - [Whiteboard.jpeg](<Images.md#whiteboardjpeg>)
- - [Text](Text)
+ - [Text](Text.md)
    - [Harmful](<Text.md#Harmful>)
      - [Harmful_1](<Text.md#Harmful_1>)
      - [Harmful_5](<Text.md#Harmful_5>)
