@@ -85,8 +85,6 @@ The following sections contain examples for different modalities with the corres
 ### Pii ssn_1 <a name="files-piis-pii-ssn_1"></a>
 
 
-### PII SSN_1
-
 
 Content:
 
@@ -114,8 +112,6 @@ Topics:
 
 ### Ssn.csv <a name="files-piis-ssncsv"></a>
 
-
-### ssn.csv
 
 
 Content:
@@ -162,8 +158,6 @@ Topics:
 ### Public-cert.pem <a name="files-random-public-certpem"></a>
 
 
-### public-cert.pem
-
 
 Content:
 
@@ -195,8 +189,6 @@ Topics:
 
 ### Code.go <a name="files-secrets-codego"></a>
 
-
-### code.go
 
 
 Content:
@@ -264,8 +256,6 @@ Secrets:
 ### Private-key.pem <a name="files-secrets-private-keypem"></a>
 
 
-### private-key.pem
-
 
 Content:
 
@@ -300,8 +290,6 @@ ceJqBTkw1qqD18cCKL5RMcmR7aIvVWwNOw==`)
 ### Flowchart.webp <a name="images-diagrams-flowchartwebp"></a>
 
 
-### flowchart.webp
-
 ![flowchart.webp](<assets/images/diagrams/flowchart.webp>)
 
 Modality:
@@ -324,8 +312,6 @@ Topics:
 
 ### Software design.png <a name="images-diagrams-software-designpng"></a>
 
-
-### software design.png
 
 ![software design.png](<assets/images/diagrams/software design.png>)
 
@@ -353,8 +339,6 @@ Topics:
 
 ### Scientific diagram.png <a name="images-diagrams-scientific-diagrampng"></a>
 
-
-### scientific diagram.png
 
 ![scientific diagram.png](<assets/images/diagrams/scientific diagram.png>)
 
@@ -387,8 +371,6 @@ Topics:
 
 ### Document-research.png <a name="images-documents-document-researchpng"></a>
 
-
-### document-research.png
 
 ![document-research.png](<assets/images/documents/document-research.png>)
 
@@ -443,8 +425,6 @@ Topics:
 ### Document-invoice.png <a name="images-documents-document-invoicepng"></a>
 
 
-### document-invoice.png
-
 ![document-invoice.png](<assets/images/documents/document-invoice.png>)
 
 Modality:
@@ -478,8 +458,6 @@ Topics:
 
 ### Document-invoice2.png <a name="images-documents-document-invoice2png"></a>
 
-
-### document-invoice2.png
 
 ![document-invoice2.png](<assets/images/documents/document-invoice2.png>)
 
@@ -525,8 +503,6 @@ Topics:
 ### Gpt4v-attack-1.png <a name="images-exploits-gpt4v-attack-1png"></a>
 
 
-### gpt4v-attack-1.png
-
 ![gpt4v-attack-1.png](<assets/images/exploits/gpt4v-attack-1.png>)
 
 Modality:
@@ -561,8 +537,6 @@ Topics:
 ### White_background_sephora_image.png <a name="images-exploits-white_background_sephora_imagepng"></a>
 
 
-### white_background_sephora_image.png
-
 ![white_background_sephora_image.png](<assets/images/exploits/white_background_sephora_image.png>)
 
 Modality:
@@ -591,8 +565,6 @@ Topics:
 
 ### Check.png <a name="images-piis-checkpng"></a>
 
-
-### check.png
 
 ![check.png](<assets/images/piis/check.png>)
 
@@ -638,8 +610,6 @@ Topics:
 ### Image-with-addess.png <a name="images-piis-image-with-addesspng"></a>
 
 
-### image-with-addess.png
-
 ![image-with-addess.png](<assets/images/piis/image-with-addess.png>)
 
 Modality:
@@ -674,8 +644,6 @@ Topics:
 ### Penguins.png <a name="images-random-penguinspng"></a>
 
 
-### penguins.png
-
 ![penguins.png](<assets/images/random/penguins.png>)
 
 Modality:
@@ -694,8 +662,6 @@ Topics:
 
 ### Code.png <a name="images-screenshots-codepng"></a>
 
-
-### code.png
 
 ![code.png](<assets/images/screenshots/code.png>)
 
@@ -738,8 +704,6 @@ Topics:
 ### Whiteboard2.jpg <a name="images-whiteboards-whiteboard2jpg"></a>
 
 
-### whiteboard2.jpg
-
 ![whiteboard2.jpg](<assets/images/whiteboards/whiteboard2.jpg>)
 
 Modality:
@@ -765,8 +729,6 @@ Topics:
 
 ### Whiteboard-diagram-text.jpeg <a name="images-whiteboards-whiteboard-diagram-textjpeg"></a>
 
-
-### whiteboard-diagram-text.jpeg
 
 ![whiteboard-diagram-text.jpeg](<assets/images/whiteboards/whiteboard-diagram-text.jpeg>)
 
@@ -794,8 +756,6 @@ Topics:
 
 ### Whiteboard.jpeg <a name="images-whiteboards-whiteboardjpeg"></a>
 
-
-### whiteboard.jpeg
 
 ![whiteboard.jpeg](<assets/images/whiteboards/whiteboard.jpeg>)
 
@@ -826,8 +786,6 @@ Topics:
 
 ### Harmful_1 <a name="text-harmful-harmful_1"></a>
 
-
-### Harmful_1
 
 
 Content:
@@ -882,8 +840,6 @@ Topics:
 ### Harmful_5 <a name="text-harmful-harmful_5"></a>
 
 
-### Harmful_5
-
 
 Content:
 
@@ -915,8 +871,6 @@ Topics:
 
 ### Harmful_4 <a name="text-harmful-harmful_4"></a>
 
-
-### Harmful_4
 
 
 Content:
@@ -950,8 +904,6 @@ Topics:
 
 ### Harmful_3 <a name="text-harmful-harmful_3"></a>
 
-
-### Harmful_3
 
 
 Content:
@@ -989,8 +941,6 @@ Topics:
 ### Harmful_2 <a name="text-harmful-harmful_2"></a>
 
 
-### Harmful_2
-
 
 Content:
 
@@ -1025,8 +975,6 @@ Topics:
 
 ### Jailbreak_11 <a name="text-jailbreak-jailbreak_11"></a>
 
-
-### Jailbreak_11
 
 
 Content:
@@ -1067,8 +1015,6 @@ Topics:
 
 ### Jailbreak_1 <a name="text-jailbreak-jailbreak_1"></a>
 
-
-### Jailbreak_1
 
 
 Content:
@@ -1113,8 +1059,6 @@ Topics:
 ### Jailbreak_10 <a name="text-jailbreak-jailbreak_10"></a>
 
 
-### Jailbreak_10
-
 
 Content:
 
@@ -1149,8 +1093,6 @@ Topics:
 
 ### Jailbreak_6 <a name="text-jailbreak-jailbreak_6"></a>
 
-
-### Jailbreak_6
 
 
 Content:
@@ -1201,8 +1143,6 @@ Topics:
 ### Jailbreak_7 <a name="text-jailbreak-jailbreak_7"></a>
 
 
-### Jailbreak_7
-
 
 Content:
 
@@ -1244,8 +1184,6 @@ Topics:
 ### Jailbreak_8 <a name="text-jailbreak-jailbreak_8"></a>
 
 
-### Jailbreak_8
-
 
 Content:
 
@@ -1286,8 +1224,6 @@ Topics:
 ### Jailbreak_4 <a name="text-jailbreak-jailbreak_4"></a>
 
 
-### Jailbreak_4
-
 
 Content:
 
@@ -1312,8 +1248,6 @@ Topics:
 
 ### Jailbreak_5 <a name="text-jailbreak-jailbreak_5"></a>
 
-
-### Jailbreak_5
 
 
 Content:
@@ -1345,8 +1279,6 @@ Topics:
 
 ### Jailbreak_9 <a name="text-jailbreak-jailbreak_9"></a>
 
-
-### Jailbreak_9
 
 
 Content:
@@ -1386,8 +1318,6 @@ Topics:
 ### Jailbreak_2 <a name="text-jailbreak-jailbreak_2"></a>
 
 
-### Jailbreak_2
-
 
 Content:
 
@@ -1424,8 +1354,6 @@ Topics:
 ### Jailbreak_3 <a name="text-jailbreak-jailbreak_3"></a>
 
 
-### Jailbreak_3
-
 
 Content:
 
@@ -1460,8 +1388,6 @@ Topics:
 
 ### Prompt injection_1 <a name="text-prompt_injections-prompt-injection_1"></a>
 
-
-### Prompt Injection_1
 
 
 Content:
@@ -1499,8 +1425,6 @@ Topics:
 
 ### Prompt injection_11 <a name="text-prompt_injections-prompt-injection_11"></a>
 
-
-### Prompt Injection_11
 
 
 Content:
@@ -1541,8 +1465,6 @@ Topics:
 ### Prompt injection_10 <a name="text-prompt_injections-prompt-injection_10"></a>
 
 
-### Prompt Injection_10
-
 
 Content:
 
@@ -1580,8 +1502,6 @@ Topics:
 ### Prompt injection_17 <a name="text-prompt_injections-prompt-injection_17"></a>
 
 
-### Prompt Injection_17
-
 
 Content:
 
@@ -1615,8 +1535,6 @@ Topics:
 ### Prompt injection_7 <a name="text-prompt_injections-prompt-injection_7"></a>
 
 
-### Prompt Injection_7
-
 
 Content:
 
@@ -1648,8 +1566,6 @@ Topics:
 ### Prompt injection_6 <a name="text-prompt_injections-prompt-injection_6"></a>
 
 
-### Prompt Injection_6
-
 
 Content:
 
@@ -1675,8 +1591,6 @@ Topics:
 
 ### Prompt injection_16 <a name="text-prompt_injections-prompt-injection_16"></a>
 
-
-### Prompt Injection_16
 
 
 Content:
@@ -1709,8 +1623,6 @@ Topics:
 ### Prompt injection_9 <a name="text-prompt_injections-prompt-injection_9"></a>
 
 
-### Prompt Injection_9
-
 
 Content:
 
@@ -1740,8 +1652,6 @@ Topics:
 ### Prompt injection_15 <a name="text-prompt_injections-prompt-injection_15"></a>
 
 
-### Prompt Injection_15
-
 
 Content:
 
@@ -1767,8 +1677,6 @@ Topics:
 
 ### Prompt injection_5 <a name="text-prompt_injections-prompt-injection_5"></a>
 
-
-### Prompt Injection_5
 
 
 Content:
@@ -1801,8 +1709,6 @@ Topics:
 ### Prompt injection_18 <a name="text-prompt_injections-prompt-injection_18"></a>
 
 
-### Prompt Injection_18
-
 
 Content:
 
@@ -1831,8 +1737,6 @@ Topics:
 
 ### Prompt injection_4 <a name="text-prompt_injections-prompt-injection_4"></a>
 
-
-### Prompt Injection_4
 
 
 Content:
@@ -1871,8 +1775,6 @@ Topics:
 ### Prompt injection_14 <a name="text-prompt_injections-prompt-injection_14"></a>
 
 
-### Prompt Injection_14
-
 
 Content:
 
@@ -1903,8 +1805,6 @@ Topics:
 
 ### Prompt injection_8 <a name="text-prompt_injections-prompt-injection_8"></a>
 
-
-### Prompt Injection_8
 
 
 Content:
@@ -1938,8 +1838,6 @@ Topics:
 
 ### Prompt injection_3 <a name="text-prompt_injections-prompt-injection_3"></a>
 
-
-### Prompt Injection_3
 
 
 Content:
@@ -1975,8 +1873,6 @@ Topics:
 
 ### Prompt injection_13 <a name="text-prompt_injections-prompt-injection_13"></a>
 
-
-### Prompt Injection_13
 
 
 Content:
@@ -2015,8 +1911,6 @@ Topics:
 ### Prompt injection_12 <a name="text-prompt_injections-prompt-injection_12"></a>
 
 
-### Prompt Injection_12
-
 
 Content:
 
@@ -2051,8 +1945,6 @@ Topics:
 
 ### Prompt injection_2 <a name="text-prompt_injections-prompt-injection_2"></a>
 
-
-### Prompt Injection_2
 
 
 Content:
