@@ -47,6 +47,7 @@ jobs:
               echo "ACUVITY_NAMESPACE=${{ secrets.DEV_NS }}" >> $GITHUB_ENV
               ECHO "ACUVITY_TOKEN=${{ secrets.DEV_TOKEN }}" >> $GITHUB_ENV
               ;;
+          esac
           python generate.py
           git config --global user.email "autogenerate@acuvity.ai"
           git config --global user.name "Acuvity reports"
