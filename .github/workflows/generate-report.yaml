@@ -32,19 +32,22 @@ jobs:
           else
             TARGET_BRANCH="${GITHUB_REF#refs/heads/}"
           fi
-          echo "Running for $TARGET_BRANCH"
+          echo "Running for $TARGET_BRANCH branch"
           case "${TARGET_BRANCH}" in
             "main"|"master")
+              echo "> Using production"
               echo "ACUVITY_API_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
               echo "ACUVITY_NAMESPACE=${{ secrets.PROD_NS }}" >> $GITHUB_ENV
               echo "ACUVITY_TOKEN=${{ secrets.PROD_TOKEN }}" >> $GITHUB_ENV
               ;;
             "preproduction")
+              echo "> Using preproduction"
               echo "ACUVITY_API_URL=${{ secrets.PREPROD_URL }}" >> $GITHUB_ENV
               echo "ACUVITY_NAMESPACE=${{ secrets.PREPROD_NS }}" >> $GITHUB_ENV
               echo "ACUVITY_TOKEN=${{ secrets.PREPROD_TOKEN }}" >> $GITHUB_ENV
               ;;
             "dev")
+              echo "> Using dev"
               echo "ACUVITY_API_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
               echo "ACUVITY_NAMESPACE=${{ secrets.DEV_NS }}" >> $GITHUB_ENV
               ECHO "ACUVITY_TOKEN=${{ secrets.DEV_TOKEN }}" >> $GITHUB_ENV
