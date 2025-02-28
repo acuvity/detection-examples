@@ -34,7 +34,7 @@ jobs:
           fi
           echo "Running for $TARGET_BRANCH"
           case "${TARGET_BRANCH}" in
-            "main")
+            "main|master")
               echo "ACUVITY_API_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
               echo "ACUVITY_NAMESPACE=${{ secrets.PROD_NS }}" >> $GITHUB_ENV
               echo "ACUVITY_TOKEN=${{ secrets.PROD_TOKEN }}" >> $GITHUB_ENV
