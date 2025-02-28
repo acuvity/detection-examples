@@ -24,7 +24,6 @@ jobs:
         with:
           python-version: "3.11"
           cache: "pip"
-      - run: pip install requests jinja2
       - name: Set secret based on branch
         run: |
           if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
