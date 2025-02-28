@@ -1,0 +1,60 @@
+name: reports
+on:
+  push:
+    branches:
+      - master
+      - preproduction
+      - dev
+  pull_request:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  generate-report:
+    name: Generate the assets report
+    runs-on: ubuntu-latest
+    concurrency:
+      group: matrix-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - run: pip install requests jinja2
+      - name: Set secret based on branch
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            TARGET_BRANCH="$GITHUB_BASE_REF"
+          else
+            TARGET_BRANCH="${GITHUB_REF#refs/heads/}"
+          fi
+          case "${TARGET_BRANCH}" in
+            "main")
+              echo "ACUVITY_API_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
+              echo "ACUVITY_NAMESPACE=${{ secrets.PROD_NS }}" >> $GITHUB_ENV
+              echo "ACUVITY_TOKEN=${{ secrets.PROD_TOKEN }}" >> $GITHUB_ENV
+              ;;
+            "preproduction")
+              echo "ACUVITY_API_URL=${{ secrets.PREPROD_URL }}" >> $GITHUB_ENV
+              echo "ACUVITY_NAMESPACE=${{ secrets.PREPROD_NS }}" >> $GITHUB_ENV
+              echo "ACUVITY_TOKEN=${{ secrets.PREPROD_TOKEN }}" >> $GITHUB_ENV
+              ;;
+            "dev")
+              echo "ACUVITY_API_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
+              echo "ACUVITY_NAMESPACE=${{ secrets.DEV_NS }}" >> $GITHUB_ENV
+              ECHO "ACUVITY_TOKEN=${{ secrets.DEV_TOKEN }}" >> $GITHUB_ENV
+              ;;
+          python generate.py
+          git config --global user.email "autogenerate@acuvity.ai"
+          git config --global user.name "Acuvity reports"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "[autogenerate]: update reports"
+            git push origin HEAD:"$TARGET_BRANCH"
+          else
+            echo "No changes to commit."
+          fi
