@@ -6,6 +6,7 @@ on:
       - preproduction
       - dev
   pull_request:
+  workflow_dispatch:
 
 defaults:
   run:
