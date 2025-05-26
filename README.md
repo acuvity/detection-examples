@@ -47,7 +47,7 @@ Category:
 
 PIIs:
  - *person*:
-   - start: 0, end: 7, score: 0.54 (`Antoine`)
+   - start: 0, end: 7, score: 0.1 (`Antoine`)
 
  - *ssn*:
    - start: 8, end: 19, score: 0.33 (`456-33-2345`)
@@ -55,7 +55,7 @@ PIIs:
 
 Topics:
  - *category/personal: 0.54*
- - *domain/general: 0.41*
+ - *domain/general: 0.53*
  - *extracted/csv_content: 1.0*
 
 
@@ -82,11 +82,11 @@ Category:
 
 PIIs:
  - *person*:
-   - start: 0, end: 13, score: 0.64 (`Homer Simpson`)
-   - start: 28, end: 41, score: 0.95 (`Marge Simpson`)
-   - start: 56, end: 68, score: 0.95 (`Bart Simpson`)
+   - start: 0, end: 13, score: 0.97 (`Homer Simpson`)
+   - start: 28, end: 41, score: 0.97 (`Marge Simpson`)
+   - start: 56, end: 68, score: 0.98 (`Bart Simpson`)
    - start: 83, end: 95, score: 0.97 (`Lisa Simpson`)
-   - start: 110, end: 124, score: 0.94 (`Maggie Simpson`)
+   - start: 110, end: 124, score: 0.97 (`Maggie Simpson`)
 
  - *ssn*:
    - start: 14, end: 25, score: 0.33 (`548-19-7362`)
@@ -98,7 +98,7 @@ PIIs:
 
 Topics:
  - *category/personal: 0.54*
- - *domain/general: 0.43*
+ - *domain/general: 0.54*
  - *extracted/csv_content: 1.0*
 
 
@@ -196,9 +196,6 @@ Secrets:
  - *aws_secret_key*:
    - start: 231, end: 251, score: 1.0 (`AKIA1234567890ABCDEF`)
 
- - *credentials*:
-   - start: 274, end: 292, score: 0.64 (`lDFOLjlO291/832nm&`)
-
 
 
 
@@ -245,6 +242,7 @@ Modality:
   - *image/webp*
 
 Category:
+  - *image/document*
   - *image/block_diagram*
 
 Languages:
@@ -253,10 +251,10 @@ Languages:
 Topics:
  - *category/personal: 0.73*
  - *contains/block_labels: 1.0*
- - *contains/printed_text: 0.92*
+ - *contains/printed_text: 0.9*
  - *depict/block_diagram: 0.99*
- - *depict/document: 0.79*
- - *domain/general: 0.59*
+ - *depict/document: 0.77*
+ - *domain/general: 0.67*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -275,13 +273,13 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.23*
+ - *prompt_injection: 0.92*
 
 Topics:
- - *category/personal: 0.56*
+ - *category/personal: 0.59*
  - *contains/printed_text: 0.9*
  - *depict/document: 0.89*
- - *domain/general: 0.53*
+ - *domain/general: 0.36*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -295,10 +293,8 @@ Modality:
   - *image/jpeg*
 
 Category:
+  - *image/document*
   - *image/block_diagram*
-
-Intent:
- - *write: 0.56*
 
 Languages:
  - *english: 0.99*
@@ -307,10 +303,10 @@ Topics:
  - *category/enterprise: 0.79*
  - *contains/block_labels: 1.0*
  - *contains/printed_text: 0.96*
- - *department/information_technology: 0.92*
- - *depict/block_diagram: 0.98*
- - *depict/document: 0.78*
- - *domain/development: 0.89*
+ - *department/information_technology: 0.93*
+ - *depict/block_diagram: 0.97*
+ - *depict/document: 0.77*
+ - *domain/development: 0.87*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -332,18 +328,27 @@ Languages:
 
 PIIs:
  - *address*:
-   - score: 0.6
+   - score: 0.1
+
+ - *location*:
+   - score: 1.0
+   - score: 1.0
+   - score: 1.0
+   - score: 1.0
 
  - *money_amount*:
    - score: 0.5
+
+ - *person*:
+   - score: 0.88
 
 
 Topics:
  - *category/enterprise: 0.97*
  - *contains/printed_text: 0.91*
- - *department/finance: 0.91*
+ - *department/finance: 0.89*
  - *depict/document: 0.67*
- - *domain/financial: 0.63*
+ - *domain/financial: 0.9*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -374,11 +379,10 @@ PIIs:
 
 Topics:
  - *category/enterprise: 0.89*
- - *contains/printed_text: 0.93*
- - *department/finance: 0.97*
- - *depict/document: 0.62*
- - *domain/commercial: 0.28*
- - *domain/financial: 0.41*
+ - *contains/printed_text: 0.94*
+ - *department/finance: 0.98*
+ - *depict/document: 0.59*
+ - *domain/financial: 0.82*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -399,20 +403,35 @@ Languages:
 
 PIIs:
  - *person*:
+   - score: 0.91
+   - score: 0.35
+   - score: 0.93
+   - score: 0.94
+   - score: 0.49
+   - score: 0.98
    - score: 0.97
-   - score: 0.65
-   - score: 0.59
-   - score: 0.59
-   - score: 0.77
-   - score: 0.63
+   - score: 0.98
+   - score: 0.86
+   - score: 0.42
+   - score: 0.48
+   - score: 0.95
+   - score: 0.93
+   - score: 0.79
+   - score: 0.79
+   - score: 0.97
+   - score: 0.97
+   - score: 0.97
+   - score: 0.95
+   - score: 0.95
 
 
 Topics:
  - *category/enterprise: 0.87*
  - *contains/printed_text: 0.91*
+ - *contains/web_url: 0.5*
  - *department/information_technology: 0.99*
  - *depict/document: 0.93*
- - *domain/development: 0.95*
+ - *domain/development: 0.79*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -430,9 +449,6 @@ Modality:
 Category:
   - *image/document*
 
-Intent:
- - *write: 0.98*
-
 Languages:
  - *english: 0.89*
 
@@ -441,9 +457,9 @@ Exploits:
 
 Topics:
  - *category/personal: 0.72*
- - *contains/printed_text: 0.91*
- - *depict/document: 0.59*
- - *domain/general: 0.67*
+ - *contains/printed_text: 0.89*
+ - *depict/document: 0.58*
+ - *domain/general: 0.77*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -464,13 +480,18 @@ Languages:
 Exploits:
  - *prompt_injection: 0.98*
 
+PIIs:
+ - *location*:
+   - score: 1.0
+
+
 Topics:
  - *category/enterprise: 0.87*
  - *contains/no_visible_text: 0.1*
- - *department/marketing: 0.79*
- - *department/sales: 0.76*
- - *depict/unclassified: 0.37*
- - *domain/commercial: 0.77*
+ - *department/marketing: 0.86*
+ - *department/sales: 0.66*
+ - *depict/unclassified: 0.39*
+ - *domain/commercial: 0.74*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -495,10 +516,13 @@ PIIs:
    - score: 0.1
 
  - *address*:
-   - score: 0.6
+   - score: 0.1
 
  - *bank_account*:
    - score: 0.8
+
+ - *location*:
+   - score: 1.0
 
  - *money_amount*:
    - score: 0.8
@@ -511,10 +535,10 @@ PIIs:
 Topics:
  - *category/enterprise: 0.73*
  - *contains/printed_text: 0.92*
- - *department/finance: 0.55*
- - *department/legal: 0.23*
+ - *department/finance: 0.6*
+ - *department/legal: 0.14*
  - *depict/check: 0.73*
- - *domain/financial: 0.21*
+ - *domain/financial: 0.43*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -535,21 +559,20 @@ Languages:
 
 PIIs:
  - *address*:
-   - score: 0.6
+   - score: 0.1
 
  - *location*:
-   - score: 0.48
-   - score: 0.81
+   - score: 1.0
 
  - *person*:
-   - score: 1.0
+   - score: 0.97
 
 
 Topics:
  - *category/personal: 0.68*
  - *contains/printed_text: 0.89*
- - *depict/document: 0.44*
- - *domain/general: 0.7*
+ - *depict/document: 0.42*
+ - *domain/general: 0.78*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -567,8 +590,8 @@ Category:
   - *image/unclassified*
 
 Topics:
- - *contains/no_visible_text: 0.91*
- - *depict/unclassified: 0.87*
+ - *contains/no_visible_text: 0.92*
+ - *depict/unclassified: 0.86*
 
 
 ## Screenshots <a name="images-screenshots"></a>
@@ -588,11 +611,12 @@ Languages:
  - *english: 0.99*
 
 Topics:
- - *category/enterprise: 0.88*
+ - *category/enterprise: 0.91*
  - *contains/printed_text: 0.92*
- - *department/human_resources: 0.72*
- - *depict/code: 0.75*
- - *domain/development: 0.25*
+ - *department/compliance: 0.58*
+ - *department/information_technology: 0.85*
+ - *depict/code: 0.76*
+ - *domain/development: 0.31*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -609,19 +633,15 @@ Modality:
 Category:
   - *image/whiteboard*
 
-Intent:
- - *summarize: 0.1*
- - *write: 0.39*
-
 Languages:
- - *english: 0.99*
+ - *english: 0.58*
 
 Topics:
- - *category/enterprise: 0.54*
+ - *category/enterprise: 0.58*
  - *contains/handwritten_text: 0.92*
  - *department/information_technology: 0.99*
  - *depict/whiteboard: 0.87*
- - *domain/general: 0.28*
+ - *domain/general: 0.53*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -637,14 +657,11 @@ Category:
   - *image/whiteboard*
 
 Languages:
- - *english: 0.77*
+ - *spanish: 0.2*
 
 Topics:
- - *category/enterprise: 0.59*
- - *contains/handwritten_text: 0.93*
- - *department/information_technology: 0.98*
- - *depict/whiteboard: 0.88*
- - *domain/general: 0.23*
+ - *contains/handwritten_text: 0.87*
+ - *depict/whiteboard: 0.87*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -659,18 +676,15 @@ Modality:
 Category:
   - *image/whiteboard*
 
-Intent:
- - *outline: 0.19*
-
 Languages:
- - *english: 0.91*
+ - *english: 0.88*
 
 Topics:
- - *category/enterprise: 0.67*
- - *contains/handwritten_text: 0.86*
- - *department/information_technology: 0.95*
- - *depict/whiteboard: 0.62*
- - *domain/general: 0.43*
+ - *category/enterprise: 0.66*
+ - *contains/handwritten_text: 0.83*
+ - *department/information_technology: 0.99*
+ - *depict/whiteboard: 0.56*
+ - *domain/general: 0.5*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -706,14 +720,19 @@ Malcontents:
 
 PIIs:
  - *location*:
-   - start: 1391, end: 1400, score: 0.93 (`Milkeyway`)
+   - start: 60, end: 66, score: 1.0 (`Galaxy`)
+   - start: 833, end: 839, score: 1.0 (`Galaxy`)
+   - start: 1391, end: 1400, score: 1.0 (`Milkeyway`)
+
+ - *person*:
+   - start: 875, end: 880, score: 0.14 (`Spice`)
 
 
 Topics:
  - *category/enterprise: 0.68*
  - *department/legal: 0.87*
- - *domain/development: 0.25*
- - *domain/general: 0.12*
+ - *domain/development: 0.1*
+ - *domain/general: 0.23*
 
 
 ### [Harmful_2.txt](<assets/text/harmful/Harmful_2.txt>) <a name="text-harmful-harmful_2txt"></a>
@@ -743,7 +762,7 @@ Topics:
  - *category/enterprise: 0.54*
  - *department/cybersecurity: 0.96*
  - *department/information_technology: 0.11*
- - *domain/general: 0.51*
+ - *domain/general: 0.48*
 
 
 ### [Harmful_3.txt](<assets/text/harmful/Harmful_3.txt>) <a name="text-harmful-harmful_3txt"></a>
@@ -770,10 +789,9 @@ Malcontents:
  - *harmful: 0.98*
 
 Topics:
- - *category/healthcare: 0.18*
  - *category/personal: 0.56*
- - *domain/financial: 0.18*
- - *domain/general: 0.23*
+ - *domain/financial: 0.12*
+ - *domain/general: 0.26*
 
 
 ### [Harmful_4.txt](<assets/text/harmful/Harmful_4.txt>) <a name="text-harmful-harmful_4txt"></a>
@@ -801,8 +819,7 @@ Malcontents:
 
 Topics:
  - *category/personal: 0.69*
- - *domain/financial: 0.1*
- - *domain/general: 0.26*
+ - *domain/general: 0.35*
 
 
 ### [Harmful_5.txt](<assets/text/harmful/Harmful_5.txt>) <a name="text-harmful-harmful_5txt"></a>
@@ -822,9 +839,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.79*
-
 Languages:
  - *english: 0.99*
 
@@ -834,7 +848,7 @@ Malcontents:
 
 Topics:
  - *category/personal: 0.82*
- - *domain/general: 0.58*
+ - *domain/general: 0.68*
 
 
 ## Jailbreak <a name="text-jailbreak"></a>
@@ -868,18 +882,19 @@ Malcontents:
 
 PIIs:
  - *person*:
-   - start: 46, end: 65, score: 0.99 (`Niccolo Machiavelli`)
-   - start: 67, end: 74, score: 1.0 (`Niccolo`)
-   - start: 249, end: 256, score: 1.0 (`Niccolo`)
-   - start: 367, end: 374, score: 1.0 (`Niccolo`)
-   - start: 956, end: 963, score: 1.0 (`Niccolo`)
-   - start: 1263, end: 1270, score: 0.99 (`Niccolo`)
-   - start: 1688, end: 1695, score: 1.0 (`Niccolo`)
+   - start: 46, end: 65, score: 0.97 (`Niccolo Machiavelli`)
+   - start: 67, end: 74, score: 0.98 (`Niccolo`)
+   - start: 101, end: 104, score: 0.77 (`AIM`)
+   - start: 249, end: 256, score: 0.98 (`Niccolo`)
+   - start: 367, end: 374, score: 0.98 (`Niccolo`)
+   - start: 956, end: 963, score: 0.98 (`Niccolo`)
+   - start: 979, end: 986, score: 0.81 (`Niccolo`)
+   - start: 1263, end: 1270, score: 0.98 (`Niccolo`)
 
 
 Topics:
  - *category/personal: 0.68*
- - *domain/general: 0.54*
+ - *domain/general: 0.58*
 
 
 ### [Jailbreak_2.txt](<assets/text/jailbreak/Jailbreak_2.txt>) <a name="text-jailbreak-jailbreak_2txt"></a>
@@ -910,19 +925,18 @@ Malcontents:
 
 PIIs:
  - *address*:
-   - start: 2433, end: 2469, score: 0.6 (`and all his dialogue is presented in`)
+   - start: 2433, end: 2469, score: 0.1 (`and all his dialogue is presented in`)
 
  - *person*:
-   - start: 897, end: 902, score: 0.95 (`Sigma`)
-   - start: 1026, end: 1031, score: 0.82 (`Sigma`)
-   - start: 1188, end: 1193, score: 0.54 (`Sigma`)
-   - start: 2290, end: 2295, score: 0.83 (`Sigma`)
-   - start: 2504, end: 2509, score: 0.51 (`Sigma`)
-   - start: 2625, end: 2630, score: 0.97 (`Sigma`)
-   - start: 2765, end: 2770, score: 0.76 (`Sigma`)
-   - start: 2835, end: 2840, score: 0.88 (`Sigma`)
-   - start: 2908, end: 2913, score: 0.65 (`Sigma`)
-   - start: 2961, end: 2966, score: 0.84 (`Sigma`)
+   - start: 30, end: 33, score: 0.24 (`Red`)
+   - start: 309, end: 314, score: 0.62 (`Sigma`)
+   - start: 544, end: 549, score: 0.78 (`Sigma`)
+   - start: 1026, end: 1031, score: 0.53 (`Sigma`)
+   - start: 1188, end: 1193, score: 0.65 (`Sigma`)
+   - start: 2504, end: 2509, score: 0.31 (`Sigma`)
+   - start: 2704, end: 2711, score: 0.92 (`Respond`)
+   - start: 2728, end: 2741, score: 0.14 (`Condition Red`)
+   - start: 2835, end: 2840, score: 0.27 (`Sigma`)
 
 
 Topics:
@@ -960,7 +974,7 @@ Topics:
  - *category/enterprise: 0.66*
  - *department/cybersecurity: 0.1*
  - *department/legal: 0.75*
- - *domain/development: 0.75*
+ - *domain/development: 0.38*
 
 
 ### [Jailbreak_4.txt](<assets/text/jailbreak/Jailbreak_4.txt>) <a name="text-jailbreak-jailbreak_4txt"></a>
@@ -985,7 +999,7 @@ Languages:
 
 Topics:
  - *category/personal: 0.84*
- - *domain/general: 0.36*
+ - *domain/general: 0.53*
 
 
 ### [Jailbreak_5.txt](<assets/text/jailbreak/Jailbreak_5.txt>) <a name="text-jailbreak-jailbreak_5txt"></a>
@@ -1005,9 +1019,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.98*
-
 Languages:
  - *english: 0.99*
 
@@ -1019,7 +1030,7 @@ Malcontents:
 
 Topics:
  - *category/personal: 0.76*
- - *domain/general: 0.56*
+ - *domain/general: 0.54*
 
 
 ### [Jailbreak_6.txt](<assets/text/jailbreak/Jailbreak_6.txt>) <a name="text-jailbreak-jailbreak_6txt"></a>
@@ -1039,9 +1050,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *summarize: 0.15*
-
 Languages:
  - *english: 0.99*
 
@@ -1052,18 +1060,19 @@ Malcontents:
  - *harmful: 0.99*
 
 PIIs:
- - *location*:
-   - start: 1933, end: 1938, score: 0.69 (`Clyde`)
-
  - *person*:
-   - start: 4, end: 9, score: 0.82 (`Clyde`)
-   - start: 763, end: 770, score: 0.65 (`UnClyde`)
-   - start: 1031, end: 1042, score: 0.95 (`ENTITIES,HE`)
+   - start: 4, end: 9, score: 0.9 (`Clyde`)
+   - start: 665, end: 670, score: 0.74 (`Clyde`)
+   - start: 763, end: 770, score: 0.92 (`UnClyde`)
+   - start: 1660, end: 1667, score: 0.32 (`UnClyde`)
+   - start: 1852, end: 1859, score: 0.9 (`UnClyde`)
+   - start: 1900, end: 1905, score: 0.6 (`Clyde`)
+   - start: 1933, end: 1938, score: 0.75 (`Clyde`)
 
 
 Topics:
  - *category/personal: 0.72*
- - *domain/general: 0.78*
+ - *domain/general: 0.73*
 
 
 ### [Jailbreak_7.txt](<assets/text/jailbreak/Jailbreak_7.txt>) <a name="text-jailbreak-jailbreak_7txt"></a>
@@ -1083,9 +1092,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.93*
-
 Languages:
  - *english: 0.99*
 
@@ -1095,15 +1101,11 @@ Exploits:
 Malcontents:
  - *harmful: 0.89*
 
-PIIs:
- - *person*:
-   - start: 1157, end: 1166, score: 0.9 (`JailBreak`)
-
-
 Topics:
  - *category/enterprise: 0.74*
  - *department/legal: 0.29*
- - *domain/development: 0.38*
+ - *domain/development: 0.18*
+ - *domain/general: 0.21*
 
 
 ### [Jailbreak_8.txt](<assets/text/jailbreak/Jailbreak_8.txt>) <a name="text-jailbreak-jailbreak_8txt"></a>
@@ -1123,9 +1125,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.95*
-
 Languages:
  - *english: 0.99*
 
@@ -1137,13 +1136,13 @@ Malcontents:
 
 PIIs:
  - *person*:
-   - start: 248, end: 259, score: 0.97 (`Andrew Tate`)
-   - start: 276, end: 287, score: 1.0 (`Andrew Tate`)
+   - start: 248, end: 259, score: 0.96 (`Andrew Tate`)
+   - start: 276, end: 287, score: 0.95 (`Andrew Tate`)
 
 
 Topics:
  - *category/personal: 0.74*
- - *domain/general: 0.46*
+ - *domain/general: 0.63*
 
 
 ### [Jailbreak_9.txt](<assets/text/jailbreak/Jailbreak_9.txt>) <a name="text-jailbreak-jailbreak_9txt"></a>
@@ -1163,9 +1162,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.98*
-
 Languages:
  - *english: 0.99*
 
@@ -1175,7 +1171,7 @@ Exploits:
 Topics:
  - *category/personal: 0.54*
  - *contains/web_url: 0.5*
- - *domain/general: 0.59*
+ - *domain/general: 0.78*
 
 
 ### [Jailbreak_10.txt](<assets/text/jailbreak/Jailbreak_10.txt>) <a name="text-jailbreak-jailbreak_10txt"></a>
@@ -1195,9 +1191,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.99*
-
 Languages:
  - *english: 0.99*
 
@@ -1212,7 +1205,7 @@ Malcontents:
 Topics:
  - *category/enterprise: 0.61*
  - *department/legal: 0.34*
- - *domain/general: 0.4*
+ - *domain/general: 0.46*
 
 
 ### [Jailbreak_11.txt](<assets/text/jailbreak/Jailbreak_11.txt>) <a name="text-jailbreak-jailbreak_11txt"></a>
@@ -1241,14 +1234,9 @@ Exploits:
 Malcontents:
  - *harmful: 0.99*
 
-PIIs:
- - *person*:
-   - start: 739, end: 742, score: 0.66 (`DAN`)
-
-
 Topics:
  - *category/personal: 0.82*
- - *domain/general: 0.71*
+ - *domain/general: 0.63*
 
 
 ## Prompt_injections <a name="text-prompt_injections"></a>
@@ -1273,11 +1261,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *outline: 0.46*
- - *summarize: 0.54*
- - *write: 0.9*
-
 Languages:
  - *english: 0.99*
 
@@ -1287,7 +1270,7 @@ Exploits:
 Topics:
  - *category/enterprise: 0.7*
  - *department/strategy: 0.97*
- - *domain/development: 0.31*
+ - *domain/general: 0.38*
 
 
 ### [Prompt injection_2.txt](<assets/text/prompt_injections/Prompt Injection_2.txt>) <a name="text-prompt_injections-prompt-injection_2txt"></a>
@@ -1307,9 +1290,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.33*
-
 Languages:
  - *english: 0.99*
 
@@ -1318,8 +1298,8 @@ Exploits:
 
 PIIs:
  - *location*:
-   - start: 220, end: 234, score: 0.89 (`United Kingdom`)
-   - start: 289, end: 308, score: 0.93 (`Republic of Ireland`)
+   - start: 220, end: 234, score: 1.0 (`United Kingdom`)
+   - start: 289, end: 308, score: 1.0 (`Republic of Ireland`)
    - start: 672, end: 685, score: 1.0 (`United States`)
 
 
@@ -1350,9 +1330,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.94*
-
 Languages:
  - *english: 0.99*
 
@@ -1362,7 +1339,7 @@ Exploits:
 Topics:
  - *category/enterprise: 0.74*
  - *department/information_technology: 0.99*
- - *domain/development: 0.56*
+ - *domain/development: 0.73*
 
 
 ### [Prompt injection_4.txt](<assets/text/prompt_injections/Prompt Injection_4.txt>) <a name="text-prompt_injections-prompt-injection_4txt"></a>
@@ -1382,9 +1359,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.85*
-
 Languages:
  - *english: 0.99*
 
@@ -1399,7 +1373,7 @@ PIIs:
 Topics:
  - *category/enterprise: 0.88*
  - *department/logistics: 0.98*
- - *domain/commercial: 0.16*
+ - *domain/commercial: 0.18*
 
 
 ### [Prompt injection_5.txt](<assets/text/prompt_injections/Prompt Injection_5.txt>) <a name="text-prompt_injections-prompt-injection_5txt"></a>
@@ -1419,9 +1393,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.93*
-
 Languages:
  - *english: 0.99*
 
@@ -1430,7 +1401,7 @@ Exploits:
 
 Topics:
  - *category/personal: 0.76*
- - *domain/general: 0.54*
+ - *domain/general: 0.58*
 
 
 ### [Prompt injection_6.txt](<assets/text/prompt_injections/Prompt Injection_6.txt>) <a name="text-prompt_injections-prompt-injection_6txt"></a>
@@ -1456,7 +1427,7 @@ Languages:
 Topics:
  - *category/enterprise: 0.86*
  - *department/information_technology: 0.84*
- - *domain/development: 0.75*
+ - *domain/development: 0.69*
 
 
 ### [Prompt injection_7.txt](<assets/text/prompt_injections/Prompt Injection_7.txt>) <a name="text-prompt_injections-prompt-injection_7txt"></a>
@@ -1476,15 +1447,12 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *write: 0.98*
-
 Languages:
  - *english: 0.99*
 
 Topics:
  - *category/personal: 0.73*
- - *domain/development: 0.54*
+ - *domain/general: 0.18*
 
 
 ### [Prompt injection_8.txt](<assets/text/prompt_injections/Prompt Injection_8.txt>) <a name="text-prompt_injections-prompt-injection_8txt"></a>
@@ -1504,9 +1472,6 @@ Modality:
 Category:
   - *text/txt*
 
-Intent:
- - *summarize: 0.91*
-
 Languages:
  - *english: 0.99*
 
@@ -1517,7 +1482,7 @@ Topics:
  - *category/enterprise: 0.92*
  - *department/finance: 0.3*
  - *department/logistics: 0.19*
- - *domain/financial: 0.61*
+ - *domain/commercial: 0.75*
 
 
 ### [Prompt injection_9.txt](<assets/text/prompt_injections/Prompt Injection_9.txt>) <a name="text-prompt_injections-prompt-injection_9txt"></a>
@@ -1543,6 +1508,6 @@ Languages:
 Topics:
  - *category/enterprise: 0.89*
  - *department/information_technology: 0.87*
- - *domain/development: 0.72*
+ - *domain/development: 0.5*
 
 
