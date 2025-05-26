@@ -245,6 +245,7 @@ Modality:
   - *image/webp*
 
 Category:
+  - *image/document*
   - *image/block_diagram*
 
 Languages:
@@ -295,6 +296,7 @@ Modality:
   - *image/jpeg*
 
 Category:
+  - *image/document*
   - *image/block_diagram*
 
 Languages:
