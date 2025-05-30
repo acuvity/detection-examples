@@ -196,6 +196,9 @@ Secrets:
  - *aws_secret_key*:
    - start: 231, end: 251, score: 1.0 (`AKIA1234567890ABCDEF`)
 
+ - *credentials*:
+   - start: 274, end: 292, score: 0.64 (`lDFOLjlO291/832nm&`)
+
 
 
 
