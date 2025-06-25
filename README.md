@@ -453,7 +453,7 @@ Languages:
  - *english: 0.89*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.72*
@@ -1046,7 +1046,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.9*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.78*
@@ -1121,7 +1121,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *person*:
@@ -1155,7 +1155,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.97*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.54*
@@ -1321,6 +1321,9 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.99*
+
 Topics:
  - *category/enterprise: 0.74*
  - *department/information_technology: 0.99*
@@ -1410,7 +1413,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.97*
+ - *prompt_injection: 0.98*
 
 Topics:
  - *category/enterprise: 0.86*
@@ -1494,7 +1497,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.92*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/enterprise: 0.89*
