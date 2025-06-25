@@ -275,9 +275,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.92*
-
 Topics:
  - *category/personal: 0.59*
  - *contains/printed_text: 0.9*
@@ -456,7 +453,7 @@ Languages:
  - *english: 0.89*
 
 Exploits:
- - *prompt_injection: 0.91*
+ - *prompt_injection: 0.98*
 
 Topics:
  - *category/personal: 0.72*
@@ -481,7 +478,7 @@ Languages:
  - *english: 0.97*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *location*:
@@ -716,10 +713,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.98*
+ - *harmful: 0.57*
 
 PIIs:
  - *location*:
@@ -759,7 +756,7 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
- - *harmful: 0.98*
+ - *harmful: 0.69*
 
 Topics:
  - *category/enterprise: 0.54*
@@ -789,7 +786,7 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
- - *harmful: 0.98*
+ - *harmful: 0.74*
 
 Topics:
  - *category/personal: 0.56*
@@ -818,7 +815,7 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
- - *harmful: 0.95*
+ - *harmful: 0.71*
 
 Topics:
  - *category/personal: 0.69*
@@ -846,7 +843,6 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
- - *harmful: 0.89*
  - *toxic: 0.49*
 
 Topics:
@@ -877,11 +873,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
- - *prompt_injection: 0.65*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.85*
+ - *harmful: 0.75*
 
 PIIs:
  - *person*:
@@ -921,10 +916,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.97*
+ - *harmful: 0.67*
 
 PIIs:
  - *address*:
@@ -968,10 +963,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.98*
+ - *harmful: 0.72*
 
 Topics:
  - *category/enterprise: 0.66*
@@ -1025,12 +1020,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *jailbreak: 0.96*
-
-Malcontents:
- - *harmful: 0.9*
-
 Topics:
  - *category/personal: 0.76*
  - *domain/general: 0.54*
@@ -1057,10 +1046,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.86*
+ - *prompt_injection: 0.9*
 
 Malcontents:
- - *harmful: 0.99*
+ - *harmful: 0.78*
 
 PIIs:
  - *person*:
@@ -1099,10 +1088,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.89*
+ - *harmful: 0.72*
 
 Topics:
  - *category/enterprise: 0.74*
@@ -1132,10 +1121,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
-
-Malcontents:
- - *harmful: 0.96*
+ - *prompt_injection: 0.98*
 
 PIIs:
  - *person*:
@@ -1169,7 +1155,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.95*
+ - *prompt_injection: 0.97*
 
 Topics:
  - *category/personal: 0.54*
@@ -1198,11 +1184,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
- - *prompt_injection: 0.1*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.99*
+ - *harmful: 0.73*
  - *toxic: 0.32*
 
 Topics:
@@ -1232,10 +1217,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.99*
+ - *harmful: 0.71*
 
 Topics:
  - *category/personal: 0.82*
@@ -1268,7 +1253,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/enterprise: 0.7*
@@ -1297,7 +1282,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *location*:
@@ -1336,9 +1321,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.92*
-
 Topics:
  - *category/enterprise: 0.74*
  - *department/information_technology: 0.99*
@@ -1366,7 +1348,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *email_address*:
@@ -1400,7 +1382,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.76*
@@ -1426,6 +1408,9 @@ Category:
 
 Languages:
  - *english: 0.99*
+
+Exploits:
+ - *prompt_injection: 0.97*
 
 Topics:
  - *category/enterprise: 0.86*
@@ -1479,7 +1464,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/enterprise: 0.92*
@@ -1507,6 +1492,9 @@ Category:
 
 Languages:
  - *english: 0.99*
+
+Exploits:
+ - *prompt_injection: 0.92*
 
 Topics:
  - *category/enterprise: 0.89*
