@@ -245,20 +245,8 @@ Modality:
   - *image/webp*
 
 Category:
-  - *image/document*
-  - *image/block_diagram*
+  - *image/webp*
 
-Languages:
- - *english: 0.99*
-
-Topics:
- - *category/personal: 0.73*
- - *contains/block_labels: 1.0*
- - *contains/printed_text: 0.9*
- - *depict/block_diagram: 0.99*
- - *depict/document: 0.77*
- - *domain/general: 0.67*
- - *extracted/typed_text_content: 1.0*
 
 
 ### [Scientific diagram.png](<assets/images/diagrams/scientific diagram.png>) <a name="images-diagrams-scientific-diagrampng"></a>
@@ -270,21 +258,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-Exploits:
- - *prompt_injection: 0.92*
-
-Topics:
- - *category/personal: 0.59*
- - *contains/printed_text: 0.9*
- - *depict/document: 0.89*
- - *domain/general: 0.36*
- - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ### [Software design.png](<assets/images/diagrams/software design.png>) <a name="images-diagrams-software-designpng"></a>
@@ -296,21 +271,8 @@ Modality:
   - *image/jpeg*
 
 Category:
-  - *image/document*
-  - *image/block_diagram*
+  - *image/jpeg*
 
-Languages:
- - *english: 0.99*
-
-Topics:
- - *category/enterprise: 0.79*
- - *contains/block_labels: 1.0*
- - *contains/printed_text: 0.96*
- - *department/information_technology: 0.93*
- - *depict/block_diagram: 0.97*
- - *depict/document: 0.77*
- - *domain/development: 0.87*
- - *extracted/typed_text_content: 1.0*
 
 
 ## Documents <a name="images-documents"></a>
@@ -324,36 +286,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-PIIs:
- - *address*:
-   - score: 0.1
-
- - *location*:
-   - score: 1.0
-   - score: 1.0
-   - score: 1.0
-   - score: 1.0
-
- - *money_amount*:
-   - score: 0.5
-
- - *person*:
-   - score: 0.88
-
-
-Topics:
- - *category/enterprise: 0.97*
- - *contains/printed_text: 0.91*
- - *department/finance: 0.89*
- - *depict/document: 0.67*
- - *domain/financial: 0.9*
- - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ### [Document-invoice.png](<assets/images/documents/document-invoice.png>) <a name="images-documents-document-invoicepng"></a>
@@ -365,29 +299,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-PIIs:
- - *email_address*:
-   - score: 0.5
-
- - *money_amount*:
-   - score: 0.5
-   - score: 0.56
-   - score: 0.5
-
-
-Topics:
- - *category/enterprise: 0.89*
- - *contains/printed_text: 0.94*
- - *department/finance: 0.98*
- - *depict/document: 0.59*
- - *domain/financial: 0.82*
- - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ### [Document-research.png](<assets/images/documents/document-research.png>) <a name="images-documents-document-researchpng"></a>
@@ -399,44 +312,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-PIIs:
- - *person*:
-   - score: 0.91
-   - score: 0.35
-   - score: 0.93
-   - score: 0.94
-   - score: 0.49
-   - score: 0.98
-   - score: 0.97
-   - score: 0.98
-   - score: 0.86
-   - score: 0.42
-   - score: 0.48
-   - score: 0.95
-   - score: 0.93
-   - score: 0.79
-   - score: 0.79
-   - score: 0.97
-   - score: 0.97
-   - score: 0.97
-   - score: 0.95
-   - score: 0.95
-
-
-Topics:
- - *category/enterprise: 0.87*
- - *contains/printed_text: 0.91*
- - *contains/web_url: 0.5*
- - *department/information_technology: 0.99*
- - *depict/document: 0.93*
- - *domain/development: 0.79*
- - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ## Exploits <a name="images-exploits"></a>
@@ -450,20 +327,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.89*
-
-Exploits:
- - *prompt_injection: 0.91*
-
-Topics:
- - *category/personal: 0.72*
- - *contains/printed_text: 0.89*
- - *depict/document: 0.58*
- - *domain/general: 0.77*
- - *extracted/typed_text_content: 1.0*
 
 
 ### [White_background_sephora_image.png](<assets/images/exploits/white_background_sephora_image.png>) <a name="images-exploits-white_background_sephora_imagepng"></a>
@@ -475,27 +340,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/unclassified*
+  - *image/png*
 
-Languages:
- - *english: 0.97*
-
-Exploits:
- - *prompt_injection: 0.98*
-
-PIIs:
- - *location*:
-   - score: 1.0
-
-
-Topics:
- - *category/enterprise: 0.87*
- - *contains/no_visible_text: 0.1*
- - *department/marketing: 0.86*
- - *department/sales: 0.66*
- - *depict/unclassified: 0.39*
- - *domain/commercial: 0.74*
- - *extracted/handwritten_text_content: 1.0*
 
 
 ## Piis <a name="images-piis"></a>
@@ -509,41 +355,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/check*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-PIIs:
- - *aba_routing_number*:
-   - score: 0.1
-
- - *address*:
-   - score: 0.1
-
- - *bank_account*:
-   - score: 0.8
-
- - *location*:
-   - score: 1.0
-
- - *money_amount*:
-   - score: 0.8
-   - score: 0.5
-
- - *person*:
-   - score: 0.8
-
-
-Topics:
- - *category/enterprise: 0.73*
- - *contains/printed_text: 0.92*
- - *department/finance: 0.6*
- - *department/legal: 0.14*
- - *depict/check: 0.73*
- - *domain/financial: 0.43*
- - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ### [Image-with-addess.png](<assets/images/piis/image-with-addess.png>) <a name="images-piis-image-with-addesspng"></a>
@@ -555,28 +368,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/document*
+  - *image/png*
 
-Languages:
- - *english: 0.73*
-
-PIIs:
- - *address*:
-   - score: 0.1
-
- - *location*:
-   - score: 1.0
-
- - *person*:
-   - score: 0.97
-
-
-Topics:
- - *category/personal: 0.68*
- - *contains/printed_text: 0.89*
- - *depict/document: 0.42*
- - *domain/general: 0.78*
- - *extracted/typed_text_content: 1.0*
 
 
 ## Random <a name="images-random"></a>
@@ -590,11 +383,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/unclassified*
+  - *image/png*
 
-Topics:
- - *contains/no_visible_text: 0.92*
- - *depict/unclassified: 0.86*
 
 
 ## Screenshots <a name="images-screenshots"></a>
@@ -608,19 +398,8 @@ Modality:
   - *image/png*
 
 Category:
-  - *image/code*
+  - *image/png*
 
-Languages:
- - *english: 0.99*
-
-Topics:
- - *category/enterprise: 0.91*
- - *contains/printed_text: 0.92*
- - *department/compliance: 0.58*
- - *department/information_technology: 0.85*
- - *depict/code: 0.76*
- - *domain/development: 0.31*
- - *extracted/typed_text_content: 1.0*
 
 
 ## Whiteboards <a name="images-whiteboards"></a>
@@ -634,18 +413,8 @@ Modality:
   - *image/jpeg*
 
 Category:
-  - *image/whiteboard*
+  - *image/jpeg*
 
-Languages:
- - *english: 0.58*
-
-Topics:
- - *category/enterprise: 0.58*
- - *contains/handwritten_text: 0.92*
- - *department/information_technology: 0.99*
- - *depict/whiteboard: 0.87*
- - *domain/general: 0.53*
- - *extracted/handwritten_text_content: 1.0*
 
 
 ### [Whiteboard-diagram-text.jpeg](<assets/images/whiteboards/whiteboard-diagram-text.jpeg>) <a name="images-whiteboards-whiteboard-diagram-textjpeg"></a>
@@ -657,15 +426,8 @@ Modality:
   - *image/jpeg*
 
 Category:
-  - *image/whiteboard*
+  - *image/jpeg*
 
-Languages:
- - *spanish: 0.2*
-
-Topics:
- - *contains/handwritten_text: 0.87*
- - *depict/whiteboard: 0.87*
- - *extracted/handwritten_text_content: 1.0*
 
 
 ### [Whiteboard.jpeg](<assets/images/whiteboards/whiteboard.jpeg>) <a name="images-whiteboards-whiteboardjpeg"></a>
@@ -677,18 +439,8 @@ Modality:
   - *image/jpeg*
 
 Category:
-  - *image/whiteboard*
+  - *image/jpeg*
 
-Languages:
- - *english: 0.88*
-
-Topics:
- - *category/enterprise: 0.66*
- - *contains/handwritten_text: 0.83*
- - *department/information_technology: 0.99*
- - *depict/whiteboard: 0.56*
- - *domain/general: 0.5*
- - *extracted/handwritten_text_content: 1.0*
 
 
 # Text <a name="text"></a>
