@@ -82,11 +82,11 @@ Category:
 
 PIIs:
  - *person*:
-   - start: 0, end: 13, score: 0.97 (`Homer Simpson`)
+   - start: 0, end: 13, score: 0.98 (`Homer Simpson`)
    - start: 28, end: 41, score: 0.97 (`Marge Simpson`)
-   - start: 56, end: 68, score: 0.98 (`Bart Simpson`)
-   - start: 83, end: 95, score: 0.97 (`Lisa Simpson`)
-   - start: 110, end: 124, score: 0.97 (`Maggie Simpson`)
+   - start: 56, end: 68, score: 0.99 (`Bart Simpson`)
+   - start: 83, end: 95, score: 0.98 (`Lisa Simpson`)
+   - start: 110, end: 124, score: 0.98 (`Maggie Simpson`)
 
  - *ssn*:
    - start: 14, end: 25, score: 0.33 (`548-19-7362`)
@@ -97,8 +97,8 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.54*
- - *domain/general: 0.54*
+ - *category/personal: 0.51*
+ - *domain/general: 0.51*
  - *extracted/csv_content: 1.0*
 
 
@@ -275,9 +275,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.92*
-
 Topics:
  - *category/personal: 0.59*
  - *contains/printed_text: 0.9*
@@ -404,6 +401,9 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.99*
+
 PIIs:
  - *person*:
    - score: 0.91
@@ -456,7 +456,7 @@ Languages:
  - *english: 0.89*
 
 Exploits:
- - *prompt_injection: 0.91*
+ - *prompt_injection: 0.68*
 
 Topics:
  - *category/personal: 0.72*
@@ -481,7 +481,7 @@ Languages:
  - *english: 0.97*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.42*
 
 PIIs:
  - *location*:
@@ -613,6 +613,9 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.99*
+
 Topics:
  - *category/enterprise: 0.91*
  - *contains/printed_text: 0.92*
@@ -716,10 +719,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.57*
+ - *harmful: 0.82*
 
 PIIs:
  - *location*:
@@ -758,8 +761,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Malcontents:
- - *harmful: 0.69*
+Exploits:
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/enterprise: 0.54*
@@ -788,8 +791,11 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.98*
+
 Malcontents:
- - *harmful: 0.74*
+ - *harmful: 0.15*
 
 Topics:
  - *category/personal: 0.56*
@@ -817,8 +823,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Malcontents:
- - *harmful: 0.71*
+Exploits:
+ - *prompt_injection: 0.98*
 
 Topics:
  - *category/personal: 0.69*
@@ -846,6 +852,7 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
+ - *harmful: 0.19*
  - *toxic: 0.49*
 
 Topics:
@@ -876,11 +883,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
- - *prompt_injection: 0.65*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.75*
+ - *harmful: 0.92*
 
 PIIs:
  - *person*:
@@ -920,10 +926,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.67*
+ - *harmful: 0.89*
 
 PIIs:
  - *address*:
@@ -967,10 +973,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.72*
+ - *harmful: 0.92*
 
 Topics:
  - *category/enterprise: 0.66*
@@ -999,6 +1005,9 @@ Category:
 Languages:
  - *english: 0.98*
 
+Malcontents:
+ - *harmful: 0.1*
+
 Topics:
  - *category/personal: 0.84*
  - *domain/general: 0.53*
@@ -1025,7 +1034,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.96*
+ - *prompt_injection: 0.85*
 
 Topics:
  - *category/personal: 0.76*
@@ -1053,10 +1062,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.86*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.78*
+ - *harmful: 0.84*
 
 PIIs:
  - *person*:
@@ -1095,10 +1104,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.72*
+ - *harmful: 0.89*
 
 Topics:
  - *category/enterprise: 0.74*
@@ -1128,7 +1137,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *person*:
@@ -1162,7 +1171,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.95*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.54*
@@ -1191,11 +1200,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
- - *prompt_injection: 0.1*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.73*
+ - *harmful: 0.87*
  - *toxic: 0.32*
 
 Topics:
@@ -1225,10 +1233,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *jailbreak: 0.99*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.71*
+ - *harmful: 0.9*
 
 Topics:
  - *category/personal: 0.82*
@@ -1261,7 +1269,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
+
+Malcontents:
+ - *harmful: 0.8*
 
 Topics:
  - *category/enterprise: 0.7*
@@ -1290,7 +1301,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.96*
+
+Malcontents:
+ - *harmful: 0.17*
 
 PIIs:
  - *location*:
@@ -1329,8 +1343,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.92*
+Malcontents:
+ - *harmful: 0.1*
 
 Topics:
  - *category/enterprise: 0.74*
@@ -1359,7 +1373,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.34*
+
+Malcontents:
+ - *harmful: 0.85*
 
 PIIs:
  - *email_address*:
@@ -1392,8 +1409,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.98*
+Malcontents:
+ - *harmful: 0.87*
 
 Topics:
  - *category/personal: 0.76*
@@ -1419,6 +1436,9 @@ Category:
 
 Languages:
  - *english: 0.99*
+
+Exploits:
+ - *prompt_injection: 0.88*
 
 Topics:
  - *category/enterprise: 0.86*
@@ -1446,6 +1466,9 @@ Category:
 Languages:
  - *english: 0.99*
 
+Malcontents:
+ - *harmful: 0.29*
+
 Topics:
  - *category/personal: 0.73*
  - *domain/general: 0.18*
@@ -1471,8 +1494,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.96*
+Malcontents:
+ - *harmful: 0.21*
 
 Topics:
  - *category/enterprise: 0.92*
