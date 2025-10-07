@@ -377,42 +377,29 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.99*
-
 PIIs:
+ - *address*:
+   - score: 0.1
+
+ - *location*:
+   - score: 1.0
+   - score: 1.0
+
  - *person*:
-   - score: 0.91
-   - score: 0.35
-   - score: 0.93
-   - score: 0.94
-   - score: 0.49
+   - score: 0.33
    - score: 0.98
-   - score: 0.97
-   - score: 0.98
-   - score: 0.86
-   - score: 0.42
-   - score: 0.48
-   - score: 0.95
-   - score: 0.93
-   - score: 0.79
-   - score: 0.79
-   - score: 0.97
-   - score: 0.97
-   - score: 0.97
-   - score: 0.95
-   - score: 0.95
+   - score: 0.96
+   - score: 0.57
+   - score: 0.83
 
 
 Topics:
- - *category/enterprise: 0.87*
- - *contains/printed_text: 0.91*
- - *contains/web_url: 0.5*
+ - *category/enterprise: 0.73*
+ - *contains/printed_text: 0.89*
  - *department/information_technology: 0.99*
- - *depict/document: 0.93*
- - *domain/development: 0.79*
+ - *depict/document: 0.36*
+ - *domain/development: 0.75*
  - *extracted/typed_text_content: 1.0*
- - *timeframe/past: 1.0*
 
 
 ## Exploits <a name="images-exploits"></a>
@@ -589,16 +576,11 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.99*
-
 Topics:
- - *category/enterprise: 0.91*
- - *contains/printed_text: 0.92*
- - *department/compliance: 0.58*
- - *department/information_technology: 0.85*
- - *depict/code: 0.76*
- - *domain/development: 0.31*
+ - *category/personal: 0.56*
+ - *contains/printed_text: 0.96*
+ - *depict/code: 0.8*
+ - *domain/general: 0.59*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -616,14 +598,14 @@ Category:
   - *image/whiteboard*
 
 Languages:
- - *english: 0.58*
+ - *english: 0.57*
 
 Topics:
- - *category/enterprise: 0.58*
+ - *category/enterprise: 0.56*
  - *contains/handwritten_text: 0.92*
  - *department/information_technology: 0.99*
  - *depict/whiteboard: 0.87*
- - *domain/general: 0.53*
+ - *domain/general: 0.54*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -659,7 +641,7 @@ Category:
   - *image/whiteboard*
 
 Languages:
- - *english: 0.88*
+ - *english: 0.92*
 
 Topics:
  - *category/enterprise: 0.66*
