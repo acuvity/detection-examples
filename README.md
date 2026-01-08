@@ -79,6 +79,9 @@ Modality:
 Category:
   - *document/personal*
 
+Malcontents:
+ - *harmful: 0.23*
+
 PIIs:
  - *person*:
    - start: 0, end: 13, score: 0.98 (`Homer Simpson`)
@@ -313,7 +316,7 @@ PIIs:
    - score: 1.0
 
  - *money_amount*:
-   - score: 0.5
+   - score: 0.33
 
  - *person*:
    - score: 0.88
@@ -345,12 +348,12 @@ Languages:
 
 PIIs:
  - *email_address*:
-   - score: 0.5
+   - score: 0.44
 
  - *money_amount*:
-   - score: 0.5
-   - score: 0.56
-   - score: 0.5
+   - score: 0.33
+   - score: 0.43
+   - score: 0.33
 
 
 Topics:
@@ -419,7 +422,7 @@ Languages:
  - *english: 0.89*
 
 Exploits:
- - *prompt_injection: 0.68*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.72*
@@ -444,7 +447,7 @@ Languages:
  - *english: 0.97*
 
 Exploits:
- - *prompt_injection: 0.42*
+ - *prompt_injection: 0.99*
 
 PIIs:
  - *location*:
@@ -479,7 +482,7 @@ Languages:
 
 PIIs:
  - *aba_routing_number*:
-   - score: 0.1
+   - score: 0.55
 
  - *address*:
    - score: 0.1
@@ -492,7 +495,7 @@ PIIs:
 
  - *money_amount*:
    - score: 0.8
-   - score: 0.5
+   - score: 0.33
 
  - *person*:
    - score: 0.8
@@ -522,6 +525,9 @@ Category:
 
 Languages:
  - *english: 0.73*
+
+Malcontents:
+ - *harmful: 0.1*
 
 PIIs:
  - *address*:
@@ -598,14 +604,14 @@ Category:
   - *image/whiteboard*
 
 Languages:
- - *english: 0.57*
+ - *english: 0.58*
 
 Topics:
- - *category/enterprise: 0.56*
+ - *category/enterprise: 0.58*
  - *contains/handwritten_text: 0.92*
  - *department/information_technology: 0.99*
  - *depict/whiteboard: 0.87*
- - *domain/general: 0.54*
+ - *domain/general: 0.53*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -641,7 +647,7 @@ Category:
   - *image/whiteboard*
 
 Languages:
- - *english: 0.92*
+ - *english: 0.88*
 
 Topics:
  - *category/enterprise: 0.66*
@@ -675,8 +681,11 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.75*
+
 Malcontents:
- - *harmful: 0.73*
+ - *harmful: 0.77*
 
 Topics:
  - *category/personal: 0.88*
@@ -703,7 +712,7 @@ Languages:
  - *english: 0.99*
 
 Malcontents:
- - *harmful: 0.67*
+ - *harmful: 0.77*
 
 Topics:
  - *category/personal: 0.68*
@@ -729,8 +738,11 @@ Category:
 Languages:
  - *english: 0.91*
 
+Exploits:
+ - *prompt_injection: 0.67*
+
 Malcontents:
- - *harmful: 0.82*
+ - *harmful: 0.85*
 
 Topics:
  - *category/personal: 0.73*
@@ -756,8 +768,11 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.26*
+
 Malcontents:
- - *harmful: 0.74*
+ - *harmful: 0.79*
 
 Topics:
  - *category/personal: 0.97*
@@ -783,8 +798,11 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *prompt_injection: 0.81*
+
 Malcontents:
- - *harmful: 0.8*
+ - *harmful: 0.87*
  - *toxic: 0.97*
 
 Topics:
@@ -914,10 +932,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.98*
 
 Malcontents:
- - *harmful: 0.84*
+ - *harmful: 0.95*
 
 PIIs:
  - *person*:
@@ -967,10 +985,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.98*
 
 Malcontents:
- - *harmful: 0.91*
+ - *harmful: 0.98*
 
 PIIs:
  - *person*:
@@ -1009,10 +1027,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.89*
 
 Malcontents:
- - *harmful: 0.89*
+ - *harmful: 0.95*
 
 PIIs:
  - *person*:
@@ -1045,10 +1063,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.96*
 
 Malcontents:
- - *harmful: 0.35*
+ - *harmful: 0.79*
 
 Topics:
  - *category/personal: 0.56*
@@ -1093,10 +1111,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.97*
 
 Malcontents:
- - *harmful: 0.85*
+ - *harmful: 0.95*
 
 PIIs:
  - *person*:
@@ -1171,10 +1189,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.97*
 
 Malcontents:
- - *harmful: 0.87*
+ - *harmful: 0.97*
 
 Topics:
  - *category/enterprise: 0.53*
@@ -1202,10 +1220,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.96*
 
 Malcontents:
- - *harmful: 0.89*
+ - *harmful: 0.97*
 
 PIIs:
  - *address*:
@@ -1248,7 +1266,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.98*
 
 Topics:
  - *category/personal: 0.96*
@@ -1307,10 +1325,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.94*
 
 Malcontents:
- - *harmful: 0.68*
+ - *harmful: 0.76*
 
 PIIs:
  - *person*:
@@ -1365,10 +1383,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.95*
-
-Malcontents:
- - *harmful: 0.25*
+ - *prompt_injection: 0.2*
 
 PIIs:
  - *person*:
@@ -1567,7 +1582,7 @@ Category:
   - *code/python*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.82*
 
 Topics:
  - *contains/web_url: 0.5*
@@ -1607,10 +1622,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.96*
 
 Malcontents:
- - *harmful: 0.9*
+ - *harmful: 0.98*
 
 PIIs:
  - *person*:
@@ -1667,7 +1682,7 @@ Category:
   - *code/handlebars*
 
 Exploits:
- - *prompt_injection: 0.99*
+ - *prompt_injection: 0.92*
 
 Topics:
  - *contains/web_url: 0.5*
