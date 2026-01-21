@@ -681,9 +681,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.75*
-
 Malcontents:
  - *harmful: 0.77*
 
@@ -710,6 +707,9 @@ Category:
 
 Languages:
  - *english: 0.99*
+
+Exploits:
+ - *jailbreak: 0.31*
 
 Malcontents:
  - *harmful: 0.77*
@@ -739,7 +739,7 @@ Languages:
  - *english: 0.91*
 
 Exploits:
- - *prompt_injection: 0.67*
+ - *jailbreak: 0.23*
 
 Malcontents:
  - *harmful: 0.85*
@@ -769,7 +769,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.26*
+ - *jailbreak: 0.45*
 
 Malcontents:
  - *harmful: 0.79*
@@ -797,9 +797,6 @@ Category:
 
 Languages:
  - *english: 0.99*
-
-Exploits:
- - *prompt_injection: 0.81*
 
 Malcontents:
  - *harmful: 0.87*
@@ -932,7 +929,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.95*
@@ -984,9 +981,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.98*
-
 Malcontents:
  - *harmful: 0.98*
 
@@ -1027,7 +1021,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.89*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.95*
@@ -1063,7 +1057,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *jailbreak: 0.1*
 
 Malcontents:
  - *harmful: 0.79*
@@ -1109,9 +1103,6 @@ Category:
 
 Languages:
  - *english: 0.99*
-
-Exploits:
- - *prompt_injection: 0.97*
 
 Malcontents:
  - *harmful: 0.95*
@@ -1189,7 +1180,8 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.97*
+ - *jailbreak: 0.12*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.97*
@@ -1220,7 +1212,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.97*
@@ -1266,7 +1258,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *category/personal: 0.96*
@@ -1324,9 +1316,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.94*
-
 Malcontents:
  - *harmful: 0.76*
 
@@ -1383,7 +1372,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.2*
+ - *prompt_injection: 0.29*
 
 PIIs:
  - *person*:
@@ -1582,7 +1571,7 @@ Category:
   - *code/python*
 
 Exploits:
- - *prompt_injection: 0.82*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *contains/web_url: 0.5*
@@ -1622,7 +1611,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.98*
@@ -1680,9 +1669,6 @@ Modality:
 
 Category:
   - *code/handlebars*
-
-Exploits:
- - *prompt_injection: 0.92*
 
 Topics:
  - *contains/web_url: 0.5*
