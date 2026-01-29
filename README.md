@@ -79,9 +79,6 @@ Modality:
 Category:
   - *document/personal*
 
-Malcontents:
- - *harmful: 0.23*
-
 PIIs:
  - *person*:
    - start: 0, end: 13, score: 0.98 (`Homer Simpson`)
@@ -99,7 +96,7 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.51*
+ - *category/personal: 0.5*
  - *domain/general: 0.51*
  - *extracted/csv_content: 1.0*
 
@@ -254,12 +251,12 @@ Languages:
  - *english: 0.99*
 
 Topics:
- - *category/personal: 0.73*
+ - *category/personal: 0.76*
  - *contains/block_labels: 1.0*
  - *contains/printed_text: 0.9*
  - *depict/block_diagram: 0.99*
  - *depict/document: 0.77*
- - *domain/general: 0.67*
+ - *domain/general: 0.68*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -279,13 +276,13 @@ Languages:
  - *english: 0.99*
 
 Topics:
- - *category/enterprise: 0.79*
+ - *category/enterprise: 0.87*
  - *contains/block_labels: 1.0*
  - *contains/printed_text: 0.96*
  - *department/information_technology: 0.93*
  - *depict/block_diagram: 0.97*
  - *depict/document: 0.77*
- - *domain/development: 0.87*
+ - *domain/development: 0.92*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -316,7 +313,7 @@ PIIs:
    - score: 1.0
 
  - *money_amount*:
-   - score: 0.5
+   - score: 0.33
 
  - *person*:
    - score: 0.88
@@ -327,7 +324,7 @@ Topics:
  - *contains/printed_text: 0.91*
  - *department/finance: 0.89*
  - *depict/document: 0.67*
- - *domain/financial: 0.9*
+ - *domain/financial: 0.92*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -348,20 +345,20 @@ Languages:
 
 PIIs:
  - *email_address*:
-   - score: 0.5
+   - score: 0.44
 
  - *money_amount*:
-   - score: 0.5
-   - score: 0.56
-   - score: 0.5
+   - score: 0.33
+   - score: 0.43
+   - score: 0.33
 
 
 Topics:
- - *category/enterprise: 0.89*
+ - *category/enterprise: 0.88*
  - *contains/printed_text: 0.94*
  - *department/finance: 0.98*
  - *depict/document: 0.59*
- - *domain/financial: 0.82*
+ - *domain/financial: 0.91*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -397,11 +394,11 @@ PIIs:
 
 
 Topics:
- - *category/enterprise: 0.73*
+ - *category/enterprise: 0.78*
  - *contains/printed_text: 0.89*
  - *department/information_technology: 0.99*
  - *depict/document: 0.36*
- - *domain/development: 0.75*
+ - *domain/development: 0.84*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -425,10 +422,10 @@ Exploits:
  - *prompt_injection: 0.99*
 
 Topics:
- - *category/personal: 0.72*
+ - *category/personal: 0.68*
  - *contains/printed_text: 0.89*
  - *depict/document: 0.58*
- - *domain/general: 0.77*
+ - *domain/general: 0.82*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -455,12 +452,12 @@ PIIs:
 
 
 Topics:
- - *category/enterprise: 0.87*
+ - *category/enterprise: 0.9*
  - *contains/no_visible_text: 0.1*
  - *department/marketing: 0.86*
  - *department/sales: 0.66*
  - *depict/unclassified: 0.39*
- - *domain/commercial: 0.74*
+ - *domain/commercial: 0.89*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -482,7 +479,7 @@ Languages:
 
 PIIs:
  - *aba_routing_number*:
-   - score: 0.1
+   - score: 0.55
 
  - *address*:
    - score: 0.1
@@ -495,19 +492,19 @@ PIIs:
 
  - *money_amount*:
    - score: 0.8
-   - score: 0.5
+   - score: 0.33
 
  - *person*:
    - score: 0.8
 
 
 Topics:
- - *category/enterprise: 0.73*
+ - *category/enterprise: 0.81*
  - *contains/printed_text: 0.92*
  - *department/finance: 0.6*
  - *department/legal: 0.14*
  - *depict/check: 0.73*
- - *domain/financial: 0.43*
+ - *domain/financial: 0.48*
  - *extracted/typed_text_content: 1.0*
  - *timeframe/past: 1.0*
 
@@ -541,10 +538,10 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.68*
+ - *category/personal: 0.67*
  - *contains/printed_text: 0.89*
  - *depict/document: 0.42*
- - *domain/general: 0.78*
+ - *domain/general: 0.79*
  - *extracted/typed_text_content: 1.0*
 
 
@@ -607,11 +604,11 @@ Languages:
  - *english: 0.58*
 
 Topics:
- - *category/enterprise: 0.58*
+ - *category/enterprise: 0.56*
  - *contains/handwritten_text: 0.92*
  - *department/information_technology: 0.99*
  - *depict/whiteboard: 0.87*
- - *domain/general: 0.53*
+ - *domain/general: 0.58*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -650,11 +647,11 @@ Languages:
  - *english: 0.88*
 
 Topics:
- - *category/enterprise: 0.66*
+ - *category/enterprise: 0.73*
  - *contains/handwritten_text: 0.83*
  - *department/information_technology: 0.99*
  - *depict/whiteboard: 0.56*
- - *domain/general: 0.5*
+ - *domain/general: 0.46*
  - *extracted/handwritten_text_content: 1.0*
 
 
@@ -681,15 +678,12 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.75*
-
 Malcontents:
- - *harmful: 0.77*
+ - *harmful: 0.75*
 
 Topics:
- - *category/personal: 0.88*
- - *domain/general: 0.61*
+ - *category/personal: 0.93*
+ - *domain/general: 0.69*
 
 
 ### [Harmful_2.txt](<assets/text/harmful/Harmful_2.txt>) <a name="text-harmful-harmful_2txt"></a>
@@ -711,12 +705,15 @@ Category:
 Languages:
  - *english: 0.99*
 
+Exploits:
+ - *jailbreak: 0.31*
+
 Malcontents:
- - *harmful: 0.77*
+ - *harmful: 0.76*
 
 Topics:
- - *category/personal: 0.68*
- - *domain/general: 0.78*
+ - *category/personal: 0.69*
+ - *domain/general: 0.82*
 
 
 ### [Harmful_3.txt](<assets/text/harmful/Harmful_3.txt>) <a name="text-harmful-harmful_3txt"></a>
@@ -739,13 +736,13 @@ Languages:
  - *english: 0.91*
 
 Exploits:
- - *prompt_injection: 0.67*
+ - *jailbreak: 0.23*
 
 Malcontents:
  - *harmful: 0.85*
 
 Topics:
- - *category/personal: 0.73*
+ - *category/personal: 0.77*
  - *domain/general: 0.58*
 
 
@@ -769,14 +766,14 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.26*
+ - *jailbreak: 0.45*
 
 Malcontents:
- - *harmful: 0.79*
+ - *harmful: 0.77*
 
 Topics:
- - *category/personal: 0.97*
- - *domain/financial: 0.71*
+ - *category/personal: 0.98*
+ - *domain/financial: 0.73*
 
 
 ### [Harmful_5.txt](<assets/text/harmful/Harmful_5.txt>) <a name="text-harmful-harmful_5txt"></a>
@@ -798,16 +795,13 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.81*
-
 Malcontents:
- - *harmful: 0.87*
- - *toxic: 0.97*
+ - *harmful: 0.86*
+ - *toxic: 0.98*
 
 Topics:
- - *category/personal: 0.74*
- - *domain/general: 0.66*
+ - *category/personal: 0.79*
+ - *domain/general: 0.68*
 
 
 ## Prompt_exploits <a name="text-prompt_exploits"></a>
@@ -932,7 +926,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.98*
+ - *prompt_injection: 0.76*
 
 Malcontents:
  - *harmful: 0.95*
@@ -961,8 +955,9 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.56*
- - *domain/general: 0.43*
+ - *category/personal: 0.63*
+ - *domain/development: 0.33*
+ - *domain/general: 0.18*
 
 
 ### [Prompt_exploit_2.txt](<assets/text/prompt_exploits/Prompt_Exploit_2.txt>) <a name="text-prompt_exploits-prompt_exploit_2txt"></a>
@@ -984,9 +979,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.98*
-
 Malcontents:
  - *harmful: 0.98*
 
@@ -996,9 +988,9 @@ PIIs:
 
 
 Topics:
- - *category/enterprise: 0.87*
+ - *category/enterprise: 0.88*
  - *department/cybersecurity: 0.99*
- - *domain/development: 0.76*
+ - *domain/development: 0.91*
 
 
 ### [Prompt_exploit_3.txt](<assets/text/prompt_exploits/Prompt_Exploit_3.txt>) <a name="text-prompt_exploits-prompt_exploit_3txt"></a>
@@ -1027,10 +1019,10 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.89*
+ - *prompt_injection: 0.99*
 
 Malcontents:
- - *harmful: 0.95*
+ - *harmful: 0.96*
 
 PIIs:
  - *person*:
@@ -1039,8 +1031,8 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.8*
- - *domain/general: 0.59*
+ - *category/personal: 0.77*
+ - *domain/general: 0.53*
 
 
 ### [Prompt_exploit_4.txt](<assets/text/prompt_exploits/Prompt_Exploit_4.txt>) <a name="text-prompt_exploits-prompt_exploit_4txt"></a>
@@ -1063,14 +1055,14 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *jailbreak: 0.1*
 
 Malcontents:
- - *harmful: 0.79*
+ - *harmful: 0.8*
 
 Topics:
- - *category/personal: 0.56*
- - *domain/development: 0.5*
+ - *category/personal: 0.63*
+ - *domain/development: 0.54*
 
 
 ### [Prompt_exploit_5.txt](<assets/text/prompt_exploits/Prompt_Exploit_5.txt>) <a name="text-prompt_exploits-prompt_exploit_5txt"></a>
@@ -1110,9 +1102,6 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.97*
-
 Malcontents:
  - *harmful: 0.95*
 
@@ -1135,8 +1124,9 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.81*
- - *domain/general: 0.58*
+ - *category/personal: 0.87*
+ - *domain/general: 0.21*
+ - *domain/regulatory: 0.25*
 
 
 ### [Prompt_exploit_6.txt](<assets/text/prompt_exploits/Prompt_Exploit_6.txt>) <a name="text-prompt_exploits-prompt_exploit_6txt"></a>
@@ -1189,15 +1179,15 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.97*
+ - *jailbreak: 0.12*
+ - *prompt_injection: 0.92*
 
 Malcontents:
  - *harmful: 0.97*
 
 Topics:
- - *category/enterprise: 0.53*
- - *department/cybersecurity: 0.84*
- - *domain/development: 0.64*
+ - *category/personal: 0.7*
+ - *domain/development: 0.78*
 
 
 ### [Prompt_exploit_7.txt](<assets/text/prompt_exploits/Prompt_Exploit_7.txt>) <a name="text-prompt_exploits-prompt_exploit_7txt"></a>
@@ -1220,7 +1210,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.97*
@@ -1242,8 +1232,8 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.64*
- - *domain/general: 0.56*
+ - *category/personal: 0.72*
+ - *domain/general: 0.26*
 
 
 ### [Prompt_exploit_8.txt](<assets/text/prompt_exploits/Prompt_Exploit_8.txt>) <a name="text-prompt_exploits-prompt_exploit_8txt"></a>
@@ -1269,8 +1259,8 @@ Exploits:
  - *prompt_injection: 0.98*
 
 Topics:
- - *category/personal: 0.96*
- - *domain/general: 0.74*
+ - *category/personal: 0.94*
+ - *domain/general: 0.73*
 
 
 ### [Prompt_exploit_9.txt](<assets/text/prompt_exploits/Prompt_Exploit_9.txt>) <a name="text-prompt_exploits-prompt_exploit_9txt"></a>
@@ -1301,7 +1291,7 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.64*
+ - *category/personal: 0.68*
  - *domain/general: 0.53*
 
 
@@ -1324,11 +1314,8 @@ Category:
 Languages:
  - *english: 0.99*
 
-Exploits:
- - *prompt_injection: 0.94*
-
 Malcontents:
- - *harmful: 0.76*
+ - *harmful: 0.88*
 
 PIIs:
  - *person*:
@@ -1336,11 +1323,10 @@ PIIs:
 
 
 Topics:
- - *category/enterprise: 0.7*
+ - *category/enterprise: 0.69*
  - *department/cybersecurity: 0.1*
  - *department/information_technology: 0.1*
- - *domain/development: 0.26*
- - *domain/general: 0.23*
+ - *domain/development: 0.54*
 
 
 ### [Prompt_exploit_11.txt](<assets/text/prompt_exploits/Prompt_Exploit_11.txt>) <a name="text-prompt_exploits-prompt_exploit_11txt"></a>
@@ -1383,7 +1369,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.2*
+ - *prompt_injection: 0.83*
 
 PIIs:
  - *person*:
@@ -1391,8 +1377,8 @@ PIIs:
 
 
 Topics:
- - *category/personal: 0.67*
- - *domain/general: 0.5*
+ - *category/personal: 0.66*
+ - *domain/general: 0.48*
 
 
 ### [Prompt_exploit_12.txt](<assets/text/prompt_exploits/Prompt_Exploit_12.txt>) <a name="text-prompt_exploits-prompt_exploit_12txt"></a>
@@ -1582,7 +1568,7 @@ Category:
   - *code/python*
 
 Exploits:
- - *prompt_injection: 0.82*
+ - *prompt_injection: 0.99*
 
 Topics:
  - *contains/web_url: 0.5*
@@ -1622,7 +1608,7 @@ Languages:
  - *english: 0.99*
 
 Exploits:
- - *prompt_injection: 0.96*
+ - *prompt_injection: 0.99*
 
 Malcontents:
  - *harmful: 0.98*
@@ -1633,11 +1619,10 @@ PIIs:
 
 
 Topics:
- - *category/enterprise: 0.58*
+ - *category/enterprise: 0.53*
  - *contains/web_url: 0.5*
  - *department/cybersecurity: 0.99*
- - *domain/development: 0.31*
- - *domain/general: 0.18*
+ - *domain/development: 0.58*
 
 
 ### [Prompt_exploit_14.txt](<assets/text/prompt_exploits/Prompt_Exploit_14.txt>) <a name="text-prompt_exploits-prompt_exploit_14txt"></a>
@@ -1682,7 +1667,7 @@ Category:
   - *code/handlebars*
 
 Exploits:
- - *prompt_injection: 0.92*
+ - *prompt_injection: 0.52*
 
 Topics:
  - *contains/web_url: 0.5*
